@@ -15,7 +15,7 @@ export const styles = StyleSheet.create({
         left: 120,
     },
     planet: {
-        resizeMode: "cover",
+        resizeMode: "contain",
         width: 220,
         height: 220,
     },
@@ -39,7 +39,7 @@ export const styles = StyleSheet.create({
     description: {
         marginTop: 20,
         color: "#FFFAFA",
-        fontSize: 15,
+        fontSize: 13,
     },
     button: {
         marginTop: 40,

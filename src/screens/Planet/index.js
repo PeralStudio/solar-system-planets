@@ -15,7 +15,7 @@ import { FontAwesome5 } from "@expo/vector-icons";
 export function Planet(props) {
     const [planet] = useContext(PlanetsContext);
 
-    const width = planet.name === "Saturno" ? 400 : 225;
+    const width = planet.name === "Saturno" ? 460 : 225;
 
     return (
         <Background>
